@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1648701840 source:d:\project\project\main.c
+	"header.h"
+
+1648704519 d:\project\project\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1648709956 source:d:\project\project\fun.c
+	"header.h"
+
