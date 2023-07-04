@@ -190,6 +190,7 @@ def reset():
     transferAmount_entry.delete(0, tk.END)
     newpass_entry.delete(0, tk.END)
     confirm_password_entry.delete(0, tk.END)
+    number_entry.delete(0, tk.END)
 
     password_frame.pack_forget()
     home_frame.pack_forget()
