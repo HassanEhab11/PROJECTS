@@ -311,9 +311,9 @@ transfer_button.pack()
 pass_change_frame = tk.Frame(window)
 
 newpass_label = tk.Label(pass_change_frame, text="Enter New Password (length four): ", font=("Arial", 8, "bold"))
-newpass_entry = tk.Entry(pass_change_frame, borderwidth=5)
+newpass_entry = tk.Entry(pass_change_frame, borderwidth=5,show="*")
 confirmpass_label = tk.Label(pass_change_frame, text="Confirm New Password: ", font=("Arial", 8, "bold"))
-confirm_password_entry = tk.Entry(pass_change_frame, borderwidth=5)
+confirm_password_entry = tk.Entry(pass_change_frame, borderwidth=5,show="*")
 change_button = tk.Button(pass_change_frame, text="Change", command=password_change)
 
 newpass_label.pack()
