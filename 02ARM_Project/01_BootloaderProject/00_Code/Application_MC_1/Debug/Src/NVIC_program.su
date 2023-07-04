@@ -1,0 +1,5 @@
+../Src/NVIC_program.c:17:6:MNVIC_vEnableIRQ	16	static
+../Src/NVIC_program.c:23:6:MNVIC_vDisableIRQ	16	static
+../Src/NVIC_program.c:29:6:MNVIC_vSetPending	16	static
+../Src/NVIC_program.c:35:6:MNVIC_vClearPending	16	static
+../Src/NVIC_program.c:41:4:MNVIC_u8GetActiveFlag	16	static

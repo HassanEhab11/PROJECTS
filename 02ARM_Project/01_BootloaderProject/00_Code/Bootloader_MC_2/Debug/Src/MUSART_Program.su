@@ -1,0 +1,8 @@
+../Src/MUSART_Program.c:36:6:MUSART_voidInit	4	static
+../Src/MUSART_Program.c:58:6:MUSART_voidSendData	24	static
+../Src/MUSART_Program.c:70:4:MUSART_u8ReadData	4	static
+../Src/MUSART_Program.c:78:4:MUSART_u8ReadDataSynch	24	static
+../Src/MUSART_Program.c:95:6:MUSART_voidEnable	4	static
+../Src/MUSART_Program.c:101:6:MUSART_voidDisable	4	static
+../Src/MUSART_Program.c:109:6:MUSART_voidCallBack	16	static
+../Src/MUSART_Program.c:118:6:USART1_IRQHandler	8	static

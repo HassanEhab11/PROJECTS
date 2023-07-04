@@ -1,0 +1,3 @@
+../Src/APARSER_Program.c:37:4:APARSER_u8AsciiToHex	24	static
+../Src/APARSER_Program.c:56:6:APARSER_voidParseRecord	16	static
+../Src/APARSER_Program.c:68:6:APARSE_voidParseData	24	static
