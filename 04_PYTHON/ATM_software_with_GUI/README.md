@@ -1,4 +1,4 @@
-##ATM Software with GUI
+## ATM Software with GUI
 
 This project is an ATM software implemented in Python using the tkinter library for creating a graphical user interface (GUI). It provides a user-friendly interface for performing various banking operations such as cash withdrawal, balance inquiry, Fawry services, and password change.
 
