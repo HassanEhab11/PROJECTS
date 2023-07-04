@@ -23,7 +23,9 @@ change_password_attempts = 0
 def check_account():
     global current_account, current_password, password_attempts
     account_number = account_entry.get()
-
+    if account_number == '':
+        messagebox.showerror("Error", "Please enter the account number.")
+        return 
     if account_number in clients:
         current_account = account_number
         current_password = clients[account_number]['password']
@@ -94,7 +96,7 @@ def withdraw_amount():
     else:
         # Perform withdrawal operation (to be implemented)
         clients[current_account]['balance'] -= amount
-        messagebox.showinfo("Cash Withdrawal", f"Withdrawal successful. Thank you!")
+        messagebox.showinfo("Cash Withdrawal", f"Withdrawal successful. \n current balance :{clients[current_account]['balance']} LE \n Thank you!")
 
     reset()
 
@@ -145,24 +147,21 @@ def change_pass_menu():
 
 def password_change():
     global change_password_attempts
-    new_password = newpass_entry.get()
-    if change_password_attempts >= 2:
-        change_password_attempts = 0
-        reset()
 
+    new_password = newpass_entry.get()
+    confirm_password = confirm_password_entry.get()
+	
     if new_password == current_password:
         change_password_attempts += 1
         messagebox.showerror("Error", "New password must be different from the current password.")
-        return
-
-    if new_password == '':
+    
+    elif new_password == '':
         change_password_attempts += 1
+        newpass_entry.delete(0, tk.END)
+        confirm_password_entry.delete(0, tk.END)
         messagebox.showerror("Error", "Please enter a new password.")
-        return
-
-    confirm_password = confirm_password_entry.get()
-
-    if len(new_password) != 4:
+   
+    elif len(new_password) != 4:
         change_password_attempts += 1
         newpass_entry.delete(0, tk.END)
         confirm_password_entry.delete(0, tk.END)
@@ -178,7 +177,11 @@ def password_change():
         clients[current_account]['password'] = new_password
         messagebox.showinfo("password Change", "Password changed successfully.")
         reset()
-
+        return
+    if change_password_attempts >= 3:
+        change_password_attempts = 0
+        reset()
+        return
 
 def reset():
     account_entry.delete(0, tk.END)
@@ -203,7 +206,7 @@ def reset():
 # window Configuration
 window = tk.Tk()
 window.title("ATM Machine")
-window.geometry("350x550+600+120")
+window.geometry("350x550+600+120") 
 # window.configure(background="#E6F7C1")
 window.resizable(False, False)
 
