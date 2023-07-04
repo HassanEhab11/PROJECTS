@@ -54,7 +54,7 @@ void DestroyList(List *pl);
 void sorting (List ** pl);
                                                          // Data Structure function
 void InsertList(int pos, NewClient* pc, List *pl);
-void DeleteList(int id, NewClient *pc, List *pl,char *(*B),char *(*E),char *(*S));
+void DeleteList(int id, NewClient *pc, List *pl,char **B,char **E,char **S);
 void ReplaceList(int id, NewClient *pc, List *pl);
 void display(  List *pl);
 
@@ -62,11 +62,11 @@ void display(  List *pl);
 
 void details(NewClient *pc,int pos);
 
-void seats (char *(*B),NewClient *pc);
+void seats (char **B,NewClient *pc);
 
-void clas_seat(NewClient *pc,char *(*B),char *(*E),char *(*S));
+void clas_seat(NewClient *pc,char **B,char **E,char **S);
 
-void free_seats(char *(*B),char *(*E),char *(*S));
+void free_seats(char **B,char **E,char **S);
 
 void class_list(List *pl);
 

@@ -1,0 +1,6 @@
+../Src/Src_MCAL/SPI/MCAL_SPI.c:12:6:MSPI_vInit	24	static
+../Src/Src_MCAL/SPI/MCAL_SPI.c:52:6:MSPI_vEnable	16	static
+../Src/Src_MCAL/SPI/MCAL_SPI.c:64:6:MSPI_vDisable	16	static
+../Src/Src_MCAL/SPI/MCAL_SPI.c:76:5:MSPI1_u16TrasRes	24	static
+../Src/Src_MCAL/SPI/MCAL_SPI.c:86:6:MSPI1_vSetCallBack	16	static
+../Src/Src_MCAL/SPI/MCAL_SPI.c:92:6:SPI1_IRQHandler	8	static

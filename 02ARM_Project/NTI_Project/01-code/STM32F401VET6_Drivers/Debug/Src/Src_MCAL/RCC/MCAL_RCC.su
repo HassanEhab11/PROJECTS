@@ -1,0 +1,7 @@
+../Src/Src_MCAL/RCC/MCAL_RCC.c:11:6:MRCC_vInitSystemClock	4	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:82:6:MRCC_vEnableBusClock	16	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:98:6:MRCC_vDisableBusClock	16	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:114:6:MRCC_vEnableSecuritySystem	4	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:120:6:MRCC_vDisableSecuritySystem	4	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:126:6:MRCC_vOutMCO_1	16	static
+../Src/Src_MCAL/RCC/MCAL_RCC.c:152:6:MRCC_vOutMCO_1_Prescaler	16	static

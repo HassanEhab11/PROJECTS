@@ -79,7 +79,7 @@ void InsertList(int pos, NewClient* pc, List *pl){                      // this 
 
 /*************************************************************/
 
-void DeleteList(int id, NewClient *pc, List *pl,char *(*B),char *(*E),char *(*S)){
+void DeleteList(int id, NewClient *pc, List *pl,char **B,char **E,char **S){
                                                                                        // this function is used to delete list and return seat free to used by another customer
    int i;
    ListNode *q, *tmp;
@@ -263,7 +263,7 @@ void display(  List *pl)
 
 }
 /*********************************************************************************************************/
-void clas_seat(NewClient *pc,char *(*B),char *(*E),char *(*S))   // Class seat and seat number: check if the same seat repeated. need some edit
+void clas_seat(NewClient *pc,char **B,char **E,char **S)   // Class seat and seat number: check if the same seat repeated. need some edit
 {                                                                // if seat is repeated i need to print for user to choose another seat and return
                                                                   // the user to choose another available seat.
                                                                   // this function is done.
@@ -398,7 +398,7 @@ if (strcmp(pc->seat,B[i])==1)
 
 
 /*******************************************************************************************************/
-void free_seats(char *(*B),char *(*E),char *(*S))                        // this function help the user to know free seat in each class.
+void free_seats(char **B,char **E,char **S)                        // this function help the user to know free seat in each class.
 
 {
     int choose;

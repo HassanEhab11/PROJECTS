@@ -1,0 +1,2 @@
+../Src/Src_HAL/Keypad/HAL_Keypad.c:10:6:HKEYPAD_vInitiate	8	static
+../Src/Src_HAL/Keypad/HAL_Keypad.c:46:4:HKEYPAD_U8READ	40	static

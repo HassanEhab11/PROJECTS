@@ -1,0 +1,22 @@
+/*
+ * MCAL_NVIC_Config.h
+ *
+ *  Created on: May 17, 2022
+ *      Author: Eng- Mohamed Mokhtar
+ */
+
+#ifndef INC_MCAL_NVIC_MCAL_NVIC_CONFIG_H_
+#define INC_MCAL_NVIC_MCAL_NVIC_CONFIG_H_
+
+/*
+ * PRIORITY GROUB AND SUB GOUPS OPTIONS:-
+ * _ALL_BITS_GROUP
+ * _3_BIT_GROUP_1_BIT_SUB
+ * _2_BIT_GROUP_2_BIT_SUB
+ * _1_BIT_GROUP_3_BIT_SUB
+ * _ALL_BITS_SUB
+ * */
+
+#define PRIORITY_MODE		_ALL_BITS_GROUP
+
+#endif /* INC_MCAL_NVIC_MCAL_NVIC_CONFIG_H_ */

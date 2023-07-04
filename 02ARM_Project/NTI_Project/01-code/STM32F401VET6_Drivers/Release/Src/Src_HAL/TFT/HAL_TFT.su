@@ -1,0 +1,12 @@
+../Src/Src_HAL/TFT/HAL_TFT.c:10:6:HTFT_vWrite_Command	8	static
+../Src/Src_HAL/TFT/HAL_TFT.c:18:7:HTFT_vWrite_Data	8	static
+../Src/Src_HAL/TFT/HAL_TFT.c:26:6:HTFT_vInit	8	static
+../Src/Src_HAL/TFT/HAL_TFT.c:78:6:HTFT_vSetCursorPosition	24	static
+../Src/Src_HAL/TFT/HAL_TFT.c:100:6:HTFT_vDisplay_Image	16	static
+../Src/Src_HAL/TFT/HAL_TFT.c:116:6:HTFT_vDrawPic	16	static
+../Src/Src_HAL/TFT/HAL_TFT.c:132:7:HTFT_vFillColor	16	static
+../Src/Src_HAL/TFT/HAL_TFT.c:151:6:HTFT_vDrawRectangle	24	static
+../Src/Src_HAL/TFT/HAL_TFT.c:169:6:HTFT_vClearScreen	16	static
+../Src/Src_HAL/TFT/HAL_TFT.c:174:6:HTFT_vDrawPixel	8	static
+../Src/Src_HAL/TFT/HAL_TFT.c:185:6:HTFT_vDrawHLine	24	static
+../Src/Src_HAL/TFT/HAL_TFT.c:194:6:HTFT_vDrawPicturesPixels	40	static

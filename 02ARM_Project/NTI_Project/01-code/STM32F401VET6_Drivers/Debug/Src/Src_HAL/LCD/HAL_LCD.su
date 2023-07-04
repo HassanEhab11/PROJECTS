@@ -1,0 +1,10 @@
+../Src/Src_HAL/LCD/HAL_LCD.c:23:6:HLCD_vInitiate	8	static
+../Src/Src_HAL/LCD/HAL_LCD.c:92:6:HLCD_vWriteCommand	16	static
+../Src/Src_HAL/LCD/HAL_LCD.c:133:6:HLCD_vClearScreen	8	static
+../Src/Src_HAL/LCD/HAL_LCD.c:138:6:HLCD_vGoTo	24	static
+../Src/Src_HAL/LCD/HAL_LCD.c:153:6:HLCD_vBuildCustomChar	24	static
+../Src/Src_HAL/LCD/HAL_LCD.c:205:6:HLCD_vWriteCharacter	16	static
+../Src/Src_HAL/LCD/HAL_LCD.c:246:6:HLCD_vWriteString	24	static
+../Src/Src_HAL/LCD/HAL_LCD.c:256:6:HLCD_vWriteNumber	40	static
+../Src/Src_HAL/LCD/HAL_LCD.c:286:6:HLCD_vWriteNumber_Bin	24	static
+../Src/Src_HAL/LCD/HAL_LCD.c:304:6:HLCD_vWriteNumber_Hex	24	static

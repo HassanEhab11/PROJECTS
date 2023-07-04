@@ -1,0 +1,2 @@
+../Src/Src_APP/Utility/Utility_Delay/DELAY_UNIT.c:10:13:Delay_vMilliSecond16MHzoscillator	8	static
+../Src/Src_APP/Utility/Utility_Delay/DELAY_UNIT.c:19:13:Delay_vMicroSecond16MHzoscillator	8	static
