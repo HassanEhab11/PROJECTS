@@ -5,7 +5,7 @@
 This project is focused on providing traveler's record services in the airline industry, and it is aptly named the "Flight Booking System." The system allows users to perform various actions related to managing client records and flight bookings. Below are the key functions of this system:
 
 **Main Functions:**
-## 1. **MAIN_MENU()**
+1. **MAIN_MENU()**
    - Description: Displays the welcome screen and provides options for users to access various features of the system.
 
 ## 2. **NEW_CLIENT()**
