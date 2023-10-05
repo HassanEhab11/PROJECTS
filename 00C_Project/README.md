@@ -8,25 +8,25 @@ This project is focused on providing traveler's record services in the airline i
 1. **MAIN_MENU()**
    - Description: Displays the welcome screen and provides options for users to access various features of the system.
 
-## 2. **NEW_CLIENT()**
+2. **NEW_CLIENT()**
    - Description: Creates a new client account by collecting details such as name, date of birth, ID, address, phone number, preferred class, and seat number.
 
-## 3. **DELETE_CLIENT()**
+ 3. **DELETE_CLIENT()**
    - Description: Allows for the deletion of a customer account.
 
-## 4. **CLIENT_LIST()**
+4. **CLIENT_LIST()**
    - Description: Displays a list of client information, including name, date of birth, ID, address, and phone number, in a table format sorted alphabetically.
 
-## 5. **CLIENT_EDIT()**
+5. **CLIENT_EDIT()**
    - Description: Used for updating specific client account details.
 
-## 6. **FREE_SEATS()**
+6. **FREE_SEATS()**
    - Description: Displays the available free seats in every class.
 
-## 7. **CLASS_LIST()**
+7. **CLASS_LIST()**
    - Description: Sorts all clients according to their seats in the selected class.
 
-## **Project Requirements:**
+**Project Requirements:**
 - The delivered code should provide a solution using the RAM Heap section for efficient memory management.
 
 
