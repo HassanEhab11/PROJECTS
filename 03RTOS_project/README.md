@@ -1,6 +1,6 @@
 # Smart Home Project based on FreeRTOS 
 
-Here's an overview of the components and features you've described:
+Here's an overview of the components and features in this project:
 
 ## 1. **Home Automation System:**
    - The core of this project is a home automation system that integrates various sensors, actuators, and control mechanisms to enhance home security, convenience, and energy efficiency.
